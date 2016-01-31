@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.odc.datastorage.ActivityLogin" >
+
+    <item
+        android:id="@+id/action_login"
+        android:showAsAction="ifRoom"
+        android:title="Login"/>
+    
+    <item
+        android:id="@+id/action_pass"
+        android:showAsAction="ifRoom"
+        android:title="pass"/>
+
+</menu>

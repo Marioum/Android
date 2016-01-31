@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:src="@drawable/logo_puma"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp" >
+
+
+
+        <ImageButton
+            android:id="@+id/btn_ivory_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#0000"
+            android:src="@drawable/ivory_cost_item" />
+
+        <ImageButton
+            android:id="@+id/btn_cameroon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/btn_ivory_cost"
+            android:background="#0000"
+            android:src="@drawable/cameroon_item" />
+
+        <ImageButton
+            android:id="@+id/btn_ghana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btn_ivory_cost"
+            android:background="#0000"
+            android:src="@drawable/ghana_item" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/txt_general" />
+
+</RelativeLayout>

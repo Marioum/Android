@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title" />
+
+        <ImageButton
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dip"
+            android:adjustViewBounds="true"
+            android:background="#00000000"
+            android:onClick="take"
+            android:src="@drawable/selector_pic" >
+        </ImageButton>
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:hint="Descrpition" />
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/Users/damine/AndroidStudioProjects/DataStorage_Complet/app/src/main/res/layout/add_article_activity.xml -->

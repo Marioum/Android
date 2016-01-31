@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_relative"
+        android:orderInCategory="100"
+        android:icon="@drawable/r"
+        android:showAsAction="ifRoom"
+        android:title="Relative"/>
+    <item
+        android:id="@+id/action_linear"
+        android:orderInCategory="100"
+        android:icon="@drawable/l"
+        android:showAsAction="ifRoom"
+        android:title="Linear"/>
+
+</menu>
+<!-- From: file:/Users/damine/AndroidStudioProjects/Layouts_Complet/app/src/main/res/menu/main.xml -->

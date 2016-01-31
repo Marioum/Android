@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/damine/AndroidStudioProjects/ActionBar_Complet/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="pressed_myaction">#CCE5B133</color>
+    <!-- From: file:/Users/damine/AndroidStudioProjects/ActionBar_Complet/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/damine/AndroidStudioProjects/ActionBar_Complet/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_dial">Dial</string>
+    <string name="action_dropdown">Drop Down</string>
+    <string name="action_myactionbar">My ActionBar</string>
+    <string name="action_search">Search</string>
+    <string name="action_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_share">Share</string>
+    <string name="action_tabs">Tabs</string>
+    <string name="app_name">ActionBar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search_hint">Search</string>
+    <string name="title_activity_custom">CustomActivity</string>
+    <string name="title_activity_drop_down">DropDownActivity</string>
+    <string name="title_activity_second">SearchActivity</string>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <!-- From: file:/Users/damine/AndroidStudioProjects/ActionBar_Complet/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="ActionBar.Solid.Myaction" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_background_textured_myaction</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_myaction</item>
+        <item name="android:backgroundSplit">@drawable/ab_background_textured_myaction</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Myaction</item>
+    </style>
+    <style name="ActionBar.Transparent.Myaction" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_myaction</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Myaction</item>
+    </style>
+    <style name="ActionBarTabStyle.Myaction" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_myaction</item>
+    </style>
+    <style name="ActionButton.CloseMode.Myaction" parent="@android:style/Widget.Holo.Light.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_myaction</item>
+    </style>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="DropDownListView.Myaction" parent="@android:style/Widget.Holo.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_myaction</item>
+    </style>
+    <style name="DropDownNav.Myaction" parent="@android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_myaction</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_myaction</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_myaction</item>
+    </style>
+    <style name="PopupMenu.Myaction" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_myaction</item>	
+    </style>
+    <style name="ProgressBar.Myaction" parent="@android:style/Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_myaction</item>
+    </style>
+    <style name="Theme.Myaction" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_myaction</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Myaction</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Myaction</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Myaction</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Myaction</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Myaction</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_myaction</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_bottom_myaction</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Myaction</item>
+        
+        
+    </style>
+    <style name="Theme.Myaction.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Myaction</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Myaction</item>
+    </style>
+</resources>

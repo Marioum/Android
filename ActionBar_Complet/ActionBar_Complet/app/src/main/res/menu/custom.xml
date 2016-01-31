@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ <item
+        android:id="@+id/action_dial"
+        android:icon="@drawable/icon_dial_pad"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_dial"/>
+    <item
+        android:id="@+id/action_message"
+        android:icon="@drawable/icon_new_message"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_send"/>
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/icon_action_settings"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/action_dial"/>
+
+</menu>
